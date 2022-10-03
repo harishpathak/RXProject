@@ -1,0 +1,82 @@
+PODS:
+  - ObjectMapper (3.5.1)
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
+    - OHHTTPStubs/Default
+  - RxBlocking (5.0.1):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxTest (5.0.1):
+    - RxSwift (~> 5)
+  - Sourcery (1.6.0)
+  - SwiftyMocky (4.1.0):
+    - Sourcery (= 1.6.0)
+  - Swinject (2.7.1)
+  - SwinjectStoryboard (2.2.1):
+    - Swinject (~> 2.7.1)
+
+DEPENDENCIES:
+  - ObjectMapper (= 3.5.1)
+  - OHHTTPStubs/Swift
+  - RxBlocking (= 5.0.1)
+  - RxCocoa (= 5.1.1)
+  - RxSwift (= 5.1.1)
+  - RxTest (= 5.0.1)
+  - SwiftyMocky (= 4.1.0)
+  - Swinject (~> 2.7.1)
+  - SwinjectStoryboard (from `https://github.com/Swinject/SwinjectStoryboard.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ObjectMapper
+    - OHHTTPStubs
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - Sourcery
+    - SwiftyMocky
+    - Swinject
+
+EXTERNAL SOURCES:
+  SwinjectStoryboard:
+    :branch: master
+    :git: https://github.com/Swinject/SwinjectStoryboard.git
+
+CHECKOUT OPTIONS:
+  SwinjectStoryboard:
+    :commit: 0877ebbc6169aa05fbd25026d6064e7eb4ab60ca
+    :git: https://github.com/Swinject/SwinjectStoryboard.git
+
+SPEC CHECKSUMS:
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
+  RxBlocking: c5e090f42d046df8b0e7752742510f349963710f
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxTest: 0132f952a61da82d5233abedaa559df91e5330e5
+  Sourcery: 744f43178637c79bf23127dfe34e2103b3f28499
+  SwiftyMocky: 014739247afadb65efb5bb92ede32c22b9365762
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  SwinjectStoryboard: 92ca3575fec0b87a27d79be2d03f8d94495d6a10
+
+PODFILE CHECKSUM: f6bb2b5b0d54a755cd865715d3319f8e62c260b3
+
+COCOAPODS: 1.11.2
